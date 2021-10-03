@@ -1,0 +1,147 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table caption{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+th,td{
+    border: 1px solid #999;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0,0.8);
+    
+    
+    
+}
+
+table thead tr td{
+    background-color: #3ca4e0;
+    color: #fff;
+}
+
+
+
+table.table1 tbody tr:hover{
+    background-color: #3ca4e0;
+    color: white;
+}
+
+table tbody tr td:first-child{
+    color: #f40;
+}
+
+table tfoot tr td{
+    text-align: right;
+    padding-right: 20px;
+}
+.menu{
+    border :2;
+    color: #333;
+    background-color: rgba(51, 51, 51, 0);
+}
+
+.menu tr td{
+    border :0;
+    padding:  0;
+    background-color: rgba(0, 0, 255, 0);
+
+}
+
+.menu tr:hover{
+    background-color: rgba(75, 90, 158, 0);
+}
+
+
+.menu tr td:hover{
+    background-color: rgba(51, 51, 51, 0);
+    
+}
+
+
+/* 
+
+.button {
+    background-color: #3ca4e0; 
+    border: none;
+    height: 33px;
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+
+  input[type=text] {
+    width: 200px;
+    height: 33px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('.\\img\\searchicon.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 10px 10px 12px 40px;
+  }
+
+
+.select {
+    position: relative;
+    width: 150px;
+    
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.select select {
+  -webkit-appearance: none;
+  padding: 7px 40px 7px 12px;
+  width: 150px;
+  border: 1px solid #e8eaed;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 1px 3px -2px #9098a9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  transition: all 150ms ease;
+}
+.select select:required:invalid {
+  color: #5a667f;
+}
+.select select option {
+  color: #223254;
+}
+.select select option[value=""][disabled] {
+  display: none;
+}
+.select select:focus {
+  outline: none;
+  border-color: #07f;
+  box-shadow: 0 0 0 2px rgba(0,119,255,0.2);
+}
+.select select:hover + svg {
+  stroke: #07f;
+}
+.sprites {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+} */
